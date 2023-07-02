@@ -1,0 +1,19 @@
+{
+  "name": "svg-gen",
+  "version": "1.0.0",
+  "description": "A command line driven svg logo generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stanjosh/svg-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanjosh/svg-gen/issues"
+  },
+  "homepage": "https://github.com/stanjosh/svg-gen#readme"
+}
