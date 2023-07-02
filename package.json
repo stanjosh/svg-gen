@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A command line driven svg logo generator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  	"run": "index.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/stanjosh/svg-gen/issues"
   },
-  "homepage": "https://github.com/stanjosh/svg-gen#readme"
+  "homepage": "https://github.com/stanjosh/svg-gen#readme",
+  "dependencies": {
+    "inquirer": "^9.2.7",
+    "jest": "^29.5.0"
+  }
 }
