@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import { Square, Triangle, Circle } from "./lib/shapes.cjs";
 import fs from "fs";
-const currentPath = process.cwd();
+
 
 
 async function buildSVG() {
@@ -10,19 +10,15 @@ async function buildSVG() {
       .prompt(questions)
       .then((answers) => {
         var svg;
-        console.log(answers)
         switch(answers.shape) {
             case "Square":
                 svg = new Square(answers)
-                console.info(svg)
                 break
             case "Triangle":
                 svg =  new Triangle(answers)
-                console.info(svg)
                 break
             case "Circle":
                 svg = new Circle(answers)
-                console.info(svg)
                 break
         };
         return svg;
