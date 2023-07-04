@@ -13,7 +13,7 @@ Requires nodejs and inquirer. Extract or clone the repo using
 
     git clone git@github.com:stanjosh/md-gen.git
 
- From the newly created directory, run npm install to install dependencies (inquirer).
+ From the newly created directory, run npm install to install dependencies (inquirer and jest).
 
 
 ## Usage
@@ -31,6 +31,10 @@ from within its folder. It will walk you through the rest of the steps to create
 ![working!](./examples/working.gif)
 
 ![complete!](./examples/example.svg)
+
+## Testing
+
+There are jest tests included. Run `npm test` to run them.
 
 ## Credits
 
